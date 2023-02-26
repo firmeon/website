@@ -5,18 +5,14 @@
     </head>
     <body>
         <h1>Bienvenue sur mon site</h1>
-        <p>Ce site est là uniquement pour que je progresse en HTML et CSS, c'est donc normal si il est moche</p>
+        <p>Ce site est là uniquement pour que je progresse en HTML et CSS, et que j'applique les cours d'IDL</p>
 
-        <form name="askUsername">
-            <label for="username">Votre pseudo :</label>
-            <input type="text" id="username" name="username">
-            <input type="button" id="usernameButton" onclick="userSendName()" value="Valider">
+        <form name="askDate">
+            <label for="dateField">Choisire une date :</label>
+            <input type="date" id="dateField">
+            <input type="button" id="dateButton" onclick="getDay()" value="Valider">
         </form>
 
-        <p id="response"></p>
+        <p id="dateResponse"></p>
     </body>
-    <footer>
-        <br>
-        Ce site est possible grâce aux cours d'informatique que je suis à Nantes Université
-    </footer>
 </html>
